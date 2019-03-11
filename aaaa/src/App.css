@@ -1,0 +1,55 @@
+.App {
+  text-align: center;
+}
+*{
+  margin: 0;
+  padding: 0
+}
+a{
+  text-decoration: none;
+  color:#000
+}
+li{
+  list-style: none;
+}
+img{
+  display:block;
+  border: none
+}
+body,html,#root,.container,.app{
+  height: 100vh;
+  width:100vw;
+}
+header,footer{
+  height: 45px;
+  flex-shrink: 0;
+  line-height: 45px
+}
+.foot{
+  border-top: 1px solid #cecece;
+  display: flex;
+  justify-content: space-around;
+}
+header{
+  border-bottom: 1px solid #cecece;
+  color:orange;
+}
+.head{
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: -1px;
+}
+header a:hover{
+  color:orange;
+  border-bottom:3px solid orange
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between
+}
+section{
+flex: 1;
+overflow: auto;
+}
+

@@ -1,0 +1,12 @@
+nav{
+    height: 45px;
+   
+}
+nav ul{
+    height: 45px;
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    flex: 1;
+}
